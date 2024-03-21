@@ -1,3 +1,6 @@
+#! /usr/bin/env node 
+// Guess Game
+// You need to guess a Secret number which is between 1 to 10;
 import inquirer from "inquirer";
 const user = await inquirer.prompt({
     name: "num",
