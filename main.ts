@@ -7,10 +7,10 @@ import inquirer from "inquirer"
 const user = await inquirer.prompt({
     name:"num",
     type:"number",
-    message:"If you want to try your Luck than Enter the Guessing number \n Make Sure the number is between 1 to 10:"
+    message:"If you want to try your Luck than Enter the Guessing number \n Make Sure the number is between 1 to 6:"
 });
 
-let storeNumber:number= Math.floor(Math.random()*10)+1
+let storeNumber:number= Math.floor(Math.random()*6)+1
 
 // let me tell you why we do this
 // Math.floor() convert the value to the lower Side
